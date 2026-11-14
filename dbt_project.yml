@@ -16,18 +16,18 @@ models:
       stg:
         +materialized: view
       mart:
-        +materialized: view
+        +materialized: table
     total_energy:
       raw:
         +materialized: table
       stg:
         +materialized: view
       mart:
-        +materialized: view
+        +materialized: table
     petroleum_and_lpgas:
       raw:
         +materialized: table
       stg:
         +materialized: view
       mart:
-        +materialized: view
+        +materialized: table
