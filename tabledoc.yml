@@ -1,0 +1,62 @@
+$schema: https://tabledoc.queria.io/schemas/dataset/v1.json
+name: enecho
+title: 資源エネルギー庁 電力調査統計・総合エネルギー統計・石油製品価格調査
+description: |-
+  電力の需要・発電・発電所（電力調査統計）、国のエネルギー需給（総合エネルギー統計）、給油所の小売価格（石油製品価格調査）を収録した統計です。
+  出典は資源エネルギー庁の公表統計です。
+topics:
+  - 資源エネルギー庁
+  - 経済産業省
+  - 総合エネルギー統計
+  - エネルギー
+  - 電力調査統計
+  - 電力需要
+  - 発電
+  - 発電所
+  - 設備容量
+  - 逆潮流
+  - 再生可能エネルギー
+  - 市区町村
+  - 火力発電
+  - 燃料
+  - 自家用発電
+  - 自家消費
+  - コージェネレーション
+  - 石油製品価格調査
+  - ガソリン価格
+  - 軽油
+  - 灯油
+  - 給油所
+homepage: https://github.com/queria-io/dataset-enecho
+language: ja
+licenses:
+  - JP-PDL-1.0
+
+sources:
+  - id: ep002
+    title: 電力調査統計（経済産業省 資源エネルギー庁）
+    path: https://www.enecho.meti.go.jp/statistics/electric_power/ep002/
+  - id: total_energy
+    title: 総合エネルギー統計（経済産業省 資源エネルギー庁）
+    path: https://www.enecho.meti.go.jp/statistics/total_energy/
+  - id: pl007
+    title: 石油製品価格調査（経済産業省 資源エネルギー庁）
+    path: https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/
+
+contributors:
+  - id: enecho
+    title: 経済産業省 資源エネルギー庁
+    path: https://www.enecho.meti.go.jp/
+    roles: [rightsHolder]
+
+temporal_coverage: {start: "1990-04", end: null}
+spatial_coverage: [JP]
+update_frequency: monthly
+schemas:
+  - name: electric_power
+    title: 電力調査統計
+  - name: total_energy
+    title: 総合エネルギー統計
+  - name: petroleum_and_lpgas
+    title: 石油製品価格調査
+synonyms: [総合エネルギー統計, エネルギー需給, 電源構成, エネルギー自給率, 資源エネルギー庁, 電力調査統計, 電力需要, 電力需要量, 小売電気事業者, 発電実績, 発電電力量, 発電所数, 最大出力, 設備容量, 設備利用率, 逆潮流, 逆潮流量, 市町村別需要電力量, 再生可能エネルギー, 太陽光発電, 風力発電, 原子力発電, 電気事業者, 発電事業者, 電源別発電量, 火力発電, 燃料消費, LNG, 石炭火力, 燃料在庫, 自家用発電実績, 自家消費電力量, 特定供給, 卸電力取引所, ガソリン価格, ガソリンスタンド, 給油所, 軽油価格, 灯油価格, 石油製品価格調査]
