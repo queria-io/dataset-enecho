@@ -23,4 +23,4 @@ columns:
     description: 価格に含まれるガソリン税または軽油引取税（円/L）
   - name: consumption_tax_rate
     description: 調査日時点の消費税率
-listed: false
+hidden: true

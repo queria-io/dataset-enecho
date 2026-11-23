@@ -36,18 +36,18 @@ licenses:
 sources:
   - id: ep002
     title: 電力調査統計（経済産業省 資源エネルギー庁）
-    path: https://www.enecho.meti.go.jp/statistics/electric_power/ep002/
+    url: https://www.enecho.meti.go.jp/statistics/electric_power/ep002/
   - id: total_energy
     title: 総合エネルギー統計（経済産業省 資源エネルギー庁）
-    path: https://www.enecho.meti.go.jp/statistics/total_energy/
+    url: https://www.enecho.meti.go.jp/statistics/total_energy/
   - id: pl007
     title: 石油製品価格調査（経済産業省 資源エネルギー庁）
-    path: https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/
+    url: https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/
 
 contributors:
   - id: enecho
     title: 経済産業省 資源エネルギー庁
-    path: https://www.enecho.meti.go.jp/
+    url: https://www.enecho.meti.go.jp/
     roles: [rightsHolder]
 
 temporal_coverage: {start: "1990-04", end: null}

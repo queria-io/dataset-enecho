@@ -33,7 +33,7 @@ columns:
     title: 地域の区分（全国 / 経済産業局 / 都道府県）
   - name: pref_code
     title: 都道府県コード（全国地方公共団体コード 2 桁。北海道局は 01、沖縄局は 47。複数の都道府県にまたがる地域は NULL）
-    entity: {type: foreign, name: prefecture}
+    entity: prefecture
   - name: pref_name
     title: 都道府県名（pref_code のある行のみ）
   - name: price_yen

@@ -29,4 +29,4 @@ columns:
     description: 全電圧計で当該月に需要実績のある小売電気事業者数
   - name: published_as_of
     description: 当該月の値の公表時点
-listed: false
+hidden: true

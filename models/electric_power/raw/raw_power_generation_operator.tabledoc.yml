@@ -63,4 +63,4 @@ columns:
     description: 発電電力量の合計（MWh）
   - name: published_as_of
     description: 当該月の値の公表時点
-listed: false
+hidden: true

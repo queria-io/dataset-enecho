@@ -17,4 +17,4 @@ columns:
     description: 値
   - name: source_edition
     description: 取り込んだ時系列表の版（例 2024年度確報）
-listed: false
+hidden: true

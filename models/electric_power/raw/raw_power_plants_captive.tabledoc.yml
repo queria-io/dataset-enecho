@@ -61,4 +61,4 @@ columns:
     description: 合計（水力＋火力の計＋原子力＋新エネルギー等の計＋その他）の自家用発電所数
   - name: total_capacity_kw
     description: 合計（水力＋火力の計＋原子力＋新エネルギー等の計＋その他）の最大出力（kW）
-listed: false
+hidden: true

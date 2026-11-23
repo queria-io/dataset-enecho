@@ -27,4 +27,4 @@ columns:
     description: 送電電力量の合計のうち卸電力取引所を通じた取引（MWh。合計の内数）
   - name: self_consumption_mwh
     description: 自家消費電力量（MWh）
-listed: false
+hidden: true
