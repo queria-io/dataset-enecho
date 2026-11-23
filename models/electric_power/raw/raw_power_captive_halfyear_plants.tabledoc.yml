@@ -15,4 +15,4 @@ columns:
     description: 再掲の行か（火力のコージェネレーションと燃料別、新エネルギーのバイオマス）
   - name: plant_count
     description: 自家用発電所数
-listed: false
+hidden: true

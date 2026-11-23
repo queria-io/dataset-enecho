@@ -49,4 +49,4 @@ columns:
     description: 合計（MWh。みなし小売電気事業者等のみ）
   - name: published_as_of
     description: 当該月の値の公表時点
-listed: false
+hidden: true

@@ -21,4 +21,4 @@ columns:
     description: 月末貯蔵量
   - name: published_as_of
     description: 当該月の値の公表時点
-listed: false
+hidden: true

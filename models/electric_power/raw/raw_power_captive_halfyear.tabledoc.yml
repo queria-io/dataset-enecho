@@ -31,4 +31,4 @@ columns:
     description: 送電電力量の合計のうち卸電力取引所を通じた取引（kWh。合計の内数）
   - name: self_consumption_kwh
     description: 自家消費電力量（kWh）
-listed: false
+hidden: true
