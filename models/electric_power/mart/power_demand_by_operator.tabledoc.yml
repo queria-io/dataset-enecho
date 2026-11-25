@@ -24,8 +24,10 @@ columns:
     title: 年月（YYYYMM）
   - name: operator_category
     title: 事業者区分コード（deemed_retailer / other_retailer）
+    dimension: categorical
   - name: operator_category_ja
     title: 事業者区分名（みなし小売電気事業者等 / みなし小売電気事業者以外）
+    dimension: categorical
   - name: operator_name
     title: 事業者名（原典の表記どおり。月内でも一意ではない）
   - name: is_retail

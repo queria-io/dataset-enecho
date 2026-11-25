@@ -18,14 +18,17 @@ columns:
     title: 統計表番号（1〜7）
   - name: table_name
     title: 統計表名
+    dimension: categorical
   - name: item_name
     title: 項目名（エネルギー源・部門・電源等）
+    dimension: categorical
   - name: item_level
     title: 項目の階層（0=大項目、1=内訳）
   - name: series
     title: 系列ラベル（PJ／原油換算万kl／億kWh／Mt-CO2／kg-CO2/kWh／構成比／前年度比／％）
   - name: value_type
     title: 値の種類（quantity=実数、ratio=比率で小数）
+    dimension: categorical
   - name: fiscal_year
     title: 年度
   - name: value

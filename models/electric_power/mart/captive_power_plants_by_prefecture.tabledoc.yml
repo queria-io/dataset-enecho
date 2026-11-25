@@ -26,8 +26,10 @@ columns:
     title: 都道府県名
   - name: power_source_group
     title: 原動力の大分類（水力・火力・火力（燃料別）・原子力・新エネルギー・燃料電池等・蓄電池・合計）
+    dimension: categorical
   - name: power_source_name
     title: 原動力の小分類。大分類が小分類を持たないときは大分類と同じ値
+    dimension: categorical
   - name: is_reference
     title: 再掲の行か（火力のコージェネレーションと燃料別、新エネルギーのバイオマス）
   - name: plant_count

@@ -23,6 +23,7 @@ columns:
     title: 年（暦年）
   - name: product_name
     title: 油種（ハイオク / レギュラー / 軽油 / 灯油店頭 / 灯油配達）
+    dimension: categorical
   - name: price_unit
     title: 価格の単位（ガソリン・軽油は 円/L、灯油は 円/18L）
   - name: area_order
@@ -31,6 +32,7 @@ columns:
     title: 地域名（原典の見出しのまま。都道府県は「県」「府」「都」を付けない）
   - name: area_level
     title: 地域の区分（全国 / 経済産業局 / 都道府県）
+    dimension: categorical
   - name: pref_code
     title: 都道府県コード（全国地方公共団体コード 2 桁。北海道局は 01、沖縄局は 47。複数の都道府県にまたがる地域は NULL）
     entity: prefecture
