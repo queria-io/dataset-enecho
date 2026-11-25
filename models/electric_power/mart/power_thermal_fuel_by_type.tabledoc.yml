@@ -26,6 +26,7 @@ columns:
     title: 年月（YYYYMM）
   - name: fuel_name
     title: 燃料種
+    dimension: categorical
   - name: quantity_unit
     title: 受入量・消費量・月末貯蔵量の単位（t / kl / 10^3m3）
   - name: heat_value_unit
